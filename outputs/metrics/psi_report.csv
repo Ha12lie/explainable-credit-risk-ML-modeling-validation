@@ -1,0 +1,14 @@
+feature,psi,interpretation
+Borrower Credit Score at Origination,0.002551917798740867,stable
+Debt-To-Income (DTI),0.004810233049399981,stable
+Original Loan to Value Ratio (LTV),0.006646808498021652,stable
+Original UPB,0.011473486636518829,stable
+Original Interest Rate,0.7414693688612664,significant_shift
+Seller Name,0.14340453768267442,moderate_shift
+Servicer Name,0.12418742005031172,moderate_shift
+Channel,0.0021406770198884846,stable
+MSA,0.042712504230550355,stable
+Occupancy Status,0.0012981014280283895,stable
+Property Type,0.0010465713120952963,stable
+Number of Units,0.0,stable
+target_distribution,0.0,stable

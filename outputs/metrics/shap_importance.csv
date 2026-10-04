@@ -1,0 +1,469 @@
+feature,mean_abs_shap
+num__Borrower Credit Score at Origination,0.051728583217983425
+cat__Seller Name_Other,0.039187022416492724
+cat__Servicer Name_PHH Mortgage Corporation,0.0181370523427587
+num__Debt-To-Income (DTI),0.0177226797625915
+cat__Servicer Name_Nationstar Mortgage LLC,0.014635501869849615
+cat__Servicer Name_Other,0.010330378996634047
+cat__Channel_B,0.009870190182495998
+num__Original Interest Rate,0.007838907058581372
+num__Original UPB,0.007185377129435999
+cat__Channel_R,0.006940431656758138
+"cat__Servicer Name_Lakeview Loan Servicing, LLC",0.0058369102900614955
+num__Original Loan to Value Ratio (LTV),0.005458558272190387
+"cat__Servicer Name_Rocket Mortgage, LLC",0.005198362737164985
+"cat__Seller Name_Rocket Mortgage, LLC",0.005105143193016044
+cat__Occupancy Status_I,0.005094767133069678
+cat__MSA_36540,0.004238065682498861
+"cat__Servicer Name_AmeriHome Mortgage Company, LLC",0.003875376909040642
+"cat__Seller Name_AmeriHome Mortgage Company, LLC",0.0035782887875839813
+"cat__Seller Name_Movement Mortgage, LLC",0.0035218264902082885
+cat__Seller Name_NewRez LLC,0.0033754056132375295
+"cat__Servicer Name_Movement Mortgage, LLC",0.0033706239816542246
+cat__Occupancy Status_P,0.003187154550305902
+cat__Servicer Name_Freedom Mortgage Corp.,0.0030813312166111093
+cat__Property Type_PU,0.003045093095886791
+cat__Servicer Name_New Residential Mortgage LLC,0.0028690903146404495
+cat__Channel_C,0.0028625130432071515
+cat__Servicer Name_Union Home Mortgage Corp.,0.002814443482905093
+cat__Property Type_SF,0.0027168354436547804
+"cat__Servicer Name_United Wholesale Mortgage, LLC",0.002634758278592026
+"cat__Seller Name_United Wholesale Mortgage, LLC",0.00253952398612077
+cat__Seller Name_Union Home Mortgage Corp.,0.0023920958425190223
+cat__MSA_0,0.002379473199965079
+"cat__Servicer Name_Guaranteed Rate, Inc.",0.0021257231930976563
+"cat__Seller Name_Guaranteed Rate, Inc.",0.001980313035721186
+cat__MSA_14860,0.0018142912041734962
+"cat__Seller Name_JPMorgan Chase Bank, National Association",0.0014464731676692023
+"cat__Seller Name_CrossCountry Mortgage, LLC",0.0014119989686258994
+cat__MSA_41180,0.0013954395242526869
+cat__Property Type_CP,0.0012059137682938399
+"cat__Seller Name_Lakeview Loan Servicing, LLC",0.0011129506587017205
+cat__MSA_35380,0.001081806882103819
+num__spy_return_12m,0.001059747945720295
+cat__MSA_37980,0.0010532939958969127
+num__vix,0.0009724790710152636
+cat__MSA_35620,0.0009679779729502537
+num__Number of Units,0.0008949555484176559
+cat__MSA_33460,0.0008802689324844265
+cat__MSA_12580,0.0007114558479895738
+cat__Seller Name_Guild Mortgage Company LLC,0.0006792555492991614
+"cat__Servicer Name_JPMorgan Chase Bank, NA",0.0006508728964213524
+"cat__Servicer Name_CrossCountry Mortgage, LLC",0.0006484112978635562
+cat__MSA_16740,0.0006464071082432286
+cat__MSA_12060,0.0005845568123724013
+cat__Servicer Name_Guild Mortgage Company LLC,0.0005415550463334854
+cat__MSA_31540,0.00052919366270838
+cat__Servicer Name_Truist Bank,0.00052217355159965
+cat__Property Type_CO,0.0005195763443786348
+cat__MSA_38060,0.0004624676280011877
+cat__MSA_26900,0.0004495941337080657
+cat__MSA_38900,0.0004306657093950221
+cat__MSA_19100,0.0004048204873933086
+cat__Seller Name_Truist Bank,0.0003712163095229309
+cat__MSA_35840,0.0003569443733137424
+cat__MSA_40140,0.00034666504431861726
+"cat__Seller Name_CMG Mortgage, Inc",0.00033980038109780253
+cat__Seller Name_Fairway Independent Mortgage Corporation,0.0003141664538701576
+cat__MSA_14460,0.0002842670617757458
+cat__MSA_28940,0.0002770363937780379
+cat__Seller Name_U.S. Bank N.A.,0.0002556383321265798
+cat__MSA_19740,0.00025190068062974543
+cat__MSA_47900,0.00025079982532432154
+cat__Servicer Name_Fairway Independent Mortgage Corporation,0.00024194923201935125
+cat__MSA_39300,0.00023713668109231394
+cat__Servicer Name_U.S. Bank N.A.,0.0002341894345483695
+cat__MSA_48620,0.00023115558948481402
+cat__MSA_10580,0.00021593576180661483
+cat__MSA_41860,0.00019134190680959287
+cat__MSA_31080,0.0001840412419472107
+cat__MSA_24860,0.00016324603846628818
+cat__MSA_16300,0.0001529357672095937
+"cat__Servicer Name_PennyMac Loan Services, LLC",0.00013129335321341765
+cat__MSA_41740,0.00013014184191079419
+cat__MSA_41420,0.00011838765889448647
+cat__MSA_12540,0.0001170261201568034
+cat__MSA_36260,0.00011414440694306906
+cat__MSA_24340,0.00011303980782179225
+cat__MSA_20500,0.0001024562743673035
+cat__MSA_22660,9.943136442787666e-05
+"cat__Seller Name_PennyMac Loan Services, LLC",9.845656984989167e-05
+cat__MSA_47260,9.80373374970327e-05
+cat__MSA_29540,8.356204520782739e-05
+cat__MSA_17140,7.684854549139193e-05
+cat__MSA_24660,7.615352850641936e-05
+cat__Seller Name_Nationstar Mortgage LLC,7.238627233649216e-05
+cat__MSA_36740,6.972913725978932e-05
+cat__MSA_40420,6.124282133710798e-05
+"cat__Seller Name_Citizens Bank, National Association",5.658851740778914e-05
+cat__Seller Name_PHH Mortgage Corporation,5.1866830249840254e-05
+cat__MSA_31140,4.997816705215049e-05
+cat__MSA_11260,4.218418366266024e-05
+"cat__Servicer Name_Citizens Bank, National Association",3.889927063249369e-05
+cat__Occupancy Status_S,3.8338507015415266e-05
+cat__Property Type_MH,3.6891273578267675e-05
+cat__MSA_16860,2.8277063771838586e-05
+cat__MSA_13820,2.7552211068192868e-05
+cat__MSA_30460,2.4197463270108224e-05
+cat__MSA_36220,2.1249488483590538e-05
+cat__MSA_16580,2.0619865806414356e-05
+cat__MSA_16980,1.4377699309989112e-05
+cat__MSA_12420,8.341281155220296e-06
+cat__MSA_17820,7.6186358200421485e-06
+cat__MSA_46340,4.6402184801384765e-06
+cat__MSA_12940,0.0
+cat__MSA_12980,0.0
+cat__MSA_13020,0.0
+cat__MSA_13140,0.0
+cat__MSA_13220,0.0
+cat__MSA_13380,0.0
+cat__MSA_13460,0.0
+cat__MSA_13740,0.0
+cat__MSA_13780,0.0
+cat__MSA_13900,0.0
+cat__MSA_13980,0.0
+cat__MSA_14010,0.0
+cat__MSA_14020,0.0
+cat__MSA_14100,0.0
+cat__MSA_14260,0.0
+cat__MSA_14500,0.0
+cat__MSA_14540,0.0
+cat__MSA_14740,0.0
+cat__MSA_47300,0.0
+cat__MSA_15180,0.0
+cat__MSA_15260,0.0
+cat__MSA_15380,0.0
+cat__MSA_15500,0.0
+cat__MSA_15540,0.0
+cat__MSA_15680,0.0
+cat__MSA_15940,0.0
+cat__MSA_15980,0.0
+cat__MSA_16020,0.0
+cat__MSA_16060,0.0
+cat__MSA_16180,0.0
+cat__MSA_16220,0.0
+cat__MSA_16540,0.0
+cat__MSA_16620,0.0
+cat__MSA_16700,0.0
+cat__MSA_16820,0.0
+cat__MSA_16940,0.0
+cat__MSA_17020,0.0
+cat__MSA_17300,0.0
+cat__MSA_17420,0.0
+cat__MSA_17460,0.0
+cat__MSA_17660,0.0
+cat__MSA_17780,0.0
+cat__MSA_17860,0.0
+cat__MSA_17900,0.0
+cat__MSA_17980,0.0
+cat__MSA_18020,0.0
+cat__MSA_18140,0.0
+cat__MSA_18580,0.0
+cat__MSA_18700,0.0
+cat__MSA_18880,0.0
+cat__MSA_19060,0.0
+cat__MSA_19140,0.0
+cat__MSA_19180,0.0
+cat__MSA_19300,0.0
+cat__MSA_19340,0.0
+cat__MSA_19430,0.0
+cat__MSA_19460,0.0
+cat__MSA_19500,0.0
+cat__MSA_19660,0.0
+cat__MSA_19780,0.0
+cat__MSA_19820,0.0
+cat__MSA_20020,0.0
+cat__MSA_20100,0.0
+cat__MSA_20220,0.0
+cat__MSA_20260,0.0
+cat__MSA_20700,0.0
+cat__MSA_20740,0.0
+cat__MSA_20940,0.0
+cat__MSA_21060,0.0
+cat__MSA_21140,0.0
+cat__MSA_21300,0.0
+cat__MSA_21340,0.0
+cat__MSA_21420,0.0
+cat__MSA_21500,0.0
+cat__MSA_21660,0.0
+cat__MSA_21780,0.0
+cat__MSA_21820,0.0
+cat__MSA_22020,0.0
+cat__MSA_22140,0.0
+cat__MSA_22180,0.0
+cat__MSA_22220,0.0
+cat__MSA_22380,0.0
+cat__MSA_22420,0.0
+cat__MSA_22500,0.0
+cat__MSA_22520,0.0
+cat__MSA_22540,0.0
+cat__MSA_22900,0.0
+cat__MSA_23060,0.0
+cat__MSA_23420,0.0
+cat__MSA_23460,0.0
+cat__MSA_23540,0.0
+cat__MSA_23580,0.0
+cat__MSA_23900,0.0
+cat__MSA_24020,0.0
+cat__MSA_24140,0.0
+cat__MSA_24220,0.0
+cat__MSA_24260,0.0
+cat__MSA_24300,0.0
+cat__MSA_24420,0.0
+cat__MSA_24500,0.0
+cat__MSA_24540,0.0
+cat__MSA_24580,0.0
+cat__MSA_24780,0.0
+cat__MSA_25020,0.0
+cat__MSA_25060,0.0
+cat__MSA_25180,0.0
+cat__MSA_25220,0.0
+cat__MSA_25260,0.0
+cat__MSA_25420,0.0
+cat__MSA_25500,0.0
+cat__MSA_25540,0.0
+cat__MSA_25620,0.0
+cat__MSA_25860,0.0
+cat__MSA_25940,0.0
+cat__MSA_25980,0.0
+cat__MSA_26140,0.0
+cat__MSA_26300,0.0
+cat__MSA_26380,0.0
+cat__MSA_26420,0.0
+cat__MSA_26580,0.0
+cat__MSA_26620,0.0
+cat__MSA_26820,0.0
+"cat__Seller Name_Kind Lending, LLC",0.0
+cat__MSA_26980,0.0
+cat__MSA_27060,0.0
+cat__MSA_27100,0.0
+cat__MSA_27140,0.0
+cat__MSA_27180,0.0
+cat__MSA_27260,0.0
+cat__MSA_27340,0.0
+cat__MSA_27500,0.0
+cat__MSA_27620,0.0
+cat__MSA_27740,0.0
+cat__MSA_27780,0.0
+cat__MSA_27860,0.0
+cat__MSA_27900,0.0
+cat__MSA_27980,0.0
+cat__MSA_28020,0.0
+cat__MSA_28100,0.0
+cat__MSA_28140,0.0
+cat__MSA_28420,0.0
+cat__MSA_28660,0.0
+cat__MSA_28700,0.0
+cat__MSA_28740,0.0
+cat__MSA_49180,0.0
+cat__MSA_29020,0.0
+cat__MSA_29100,0.0
+cat__MSA_29180,0.0
+cat__MSA_29200,0.0
+cat__MSA_29340,0.0
+cat__MSA_29420,0.0
+cat__MSA_29460,0.0
+cat__MSA_49020,0.0
+cat__MSA_29620,0.0
+cat__MSA_29700,0.0
+cat__MSA_29740,0.0
+cat__MSA_29820,0.0
+cat__MSA_29940,0.0
+cat__MSA_30020,0.0
+cat__MSA_30140,0.0
+cat__MSA_30300,0.0
+cat__MSA_30340,0.0
+cat__MSA_47380,0.0
+cat__MSA_30620,0.0
+cat__MSA_30700,0.0
+cat__MSA_30780,0.0
+cat__MSA_30860,0.0
+cat__MSA_30980,0.0
+cat__MSA_31020,0.0
+cat__MSA_47460,0.0
+cat__MSA_47580,0.0
+cat__MSA_31180,0.0
+cat__MSA_31340,0.0
+cat__MSA_31420,0.0
+cat__MSA_31460,0.0
+cat__MSA_47940,0.0
+cat__MSA_31700,0.0
+cat__MSA_31740,0.0
+cat__MSA_31860,0.0
+cat__MSA_31900,0.0
+cat__MSA_32420,0.0
+cat__MSA_32580,0.0
+cat__MSA_32780,0.0
+cat__MSA_32820,0.0
+cat__MSA_32900,0.0
+cat__MSA_33100,0.0
+cat__MSA_33140,0.0
+cat__MSA_33220,0.0
+cat__MSA_33260,0.0
+cat__MSA_33340,0.0
+cat__MSA_48060,0.0
+cat__MSA_33540,0.0
+cat__MSA_33660,0.0
+cat__MSA_33700,0.0
+cat__MSA_33740,0.0
+cat__MSA_33780,0.0
+cat__MSA_33860,0.0
+cat__MSA_34060,0.0
+cat__MSA_34100,0.0
+cat__MSA_34580,0.0
+cat__MSA_34620,0.0
+cat__MSA_34740,0.0
+cat__MSA_34820,0.0
+cat__MSA_34900,0.0
+cat__MSA_34940,0.0
+cat__MSA_34980,0.0
+cat__MSA_35100,0.0
+cat__MSA_35300,0.0
+cat__MSA_48140,0.0
+cat__MSA_48260,0.0
+cat__MSA_35660,0.0
+cat__MSA_48300,0.0
+cat__MSA_35980,0.0
+cat__MSA_36100,0.0
+cat__MSA_36140,0.0
+cat__MSA_48540,0.0
+cat__MSA_48660,0.0
+cat__MSA_36420,0.0
+cat__MSA_36500,0.0
+cat__MSA_48700,0.0
+cat__MSA_48900,0.0
+cat__MSA_36780,0.0
+cat__MSA_36980,0.0
+cat__MSA_37100,0.0
+cat__MSA_37340,0.0
+cat__MSA_37460,0.0
+cat__MSA_37620,0.0
+cat__MSA_37860,0.0
+cat__MSA_37900,0.0
+"cat__Seller Name_Lennar Mortgage, LLC",0.0
+cat__Seller Name_PennyMac Corp.,0.0
+cat__MSA_38220,0.0
+cat__MSA_38300,0.0
+cat__MSA_38340,0.0
+cat__MSA_38540,0.0
+cat__MSA_38660,0.0
+cat__MSA_38860,0.0
+"cat__Seller Name_Pulte Mortgage, L.L.C.",0.0
+cat__MSA_38940,0.0
+"cat__Seller Name_Wells Fargo Bank, N.A.",0.0
+cat__MSA_39150,0.0
+"cat__Seller Name_loanDepot.com, LLC",0.0
+cat__MSA_39340,0.0
+cat__MSA_39380,0.0
+cat__MSA_39460,0.0
+cat__MSA_39540,0.0
+cat__MSA_39580,0.0
+cat__MSA_39660,0.0
+cat__MSA_39740,0.0
+cat__MSA_39820,0.0
+cat__MSA_39900,0.0
+cat__MSA_40060,0.0
+"cat__Servicer Name_CMG Mortgage, Inc",0.0
+cat__MSA_40220,0.0
+cat__MSA_40340,0.0
+cat__MSA_40380,0.0
+"cat__Servicer Name_CitiMortgage, Inc.",0.0
+cat__MSA_40580,0.0
+cat__MSA_40660,0.0
+cat__MSA_40900,0.0
+cat__MSA_40980,0.0
+cat__MSA_41060,0.0
+cat__MSA_41100,0.0
+cat__MSA_41140,0.0
+cat__Servicer Name_NewRez LLC,0.0
+cat__Servicer Name_PennyMac Corp.,0.0
+cat__MSA_41500,0.0
+cat__MSA_41540,0.0
+cat__MSA_41620,0.0
+cat__MSA_41660,0.0
+cat__MSA_41700,0.0
+"cat__Servicer Name_Planet Home Lending, LLC",0.0
+cat__Servicer Name_Regions Bank,0.0
+cat__MSA_41900,0.0
+cat__MSA_41940,0.0
+cat__MSA_41980,0.0
+cat__MSA_42020,0.0
+cat__MSA_42100,0.0
+cat__MSA_42140,0.0
+cat__MSA_42200,0.0
+cat__MSA_42220,0.0
+cat__MSA_42340,0.0
+cat__MSA_42540,0.0
+cat__MSA_42660,0.0
+cat__MSA_42680,0.0
+cat__MSA_42700,0.0
+cat__MSA_43100,0.0
+cat__MSA_43300,0.0
+cat__MSA_43340,0.0
+cat__MSA_43420,0.0
+cat__MSA_43580,0.0
+cat__MSA_43620,0.0
+cat__MSA_43780,0.0
+cat__MSA_43900,0.0
+cat__MSA_44060,0.0
+cat__MSA_44100,0.0
+cat__MSA_44140,0.0
+cat__MSA_39100,0.0
+cat__MSA_44220,0.0
+cat__MSA_44300,0.0
+cat__MSA_44420,0.0
+cat__MSA_44700,0.0
+cat__MSA_44940,0.0
+cat__MSA_45060,0.0
+cat__MSA_45220,0.0
+cat__MSA_45300,0.0
+cat__MSA_45460,0.0
+cat__MSA_45500,0.0
+cat__MSA_45540,0.0
+cat__MSA_45780,0.0
+cat__MSA_45820,0.0
+cat__MSA_45940,0.0
+cat__MSA_46060,0.0
+cat__MSA_46140,0.0
+cat__MSA_46220,0.0
+cat__MSA_46300,0.0
+"cat__Servicer Name_Wells Fargo Bank, N.A.",0.0
+cat__MSA_46520,0.0
+cat__MSA_46540,0.0
+cat__MSA_46660,0.0
+cat__MSA_46700,0.0
+cat__MSA_47020,0.0
+cat__MSA_47220,0.0
+cat__MSA_10180,0.0
+cat__MSA_10380,0.0
+cat__MSA_49340,0.0
+cat__MSA_49420,0.0
+cat__MSA_49620,0.0
+cat__MSA_49660,0.0
+cat__MSA_49700,0.0
+cat__MSA_49740,0.0
+cat__MSA_infrequent_sklearn,0.0
+cat__MSA_10420,0.0
+cat__MSA_10500,0.0
+cat__MSA_10540,0.0
+cat__MSA_10740,0.0
+cat__MSA_10780,0.0
+cat__MSA_10900,0.0
+cat__MSA_11020,0.0
+cat__MSA_11100,0.0
+cat__MSA_11180,0.0
+cat__MSA_11460,0.0
+num__tnx,0.0
+cat__MSA_11500,0.0
+cat__MSA_11540,0.0
+cat__MSA_11640,0.0
+cat__MSA_11700,0.0
+"cat__Seller Name_CitiMortgage, Inc.",0.0
+cat__MSA_12020,0.0
+cat__MSA_12100,0.0
+"cat__Seller Name_DHI Mortgage Company, Ltd.",0.0
+cat__MSA_12220,0.0
+cat__MSA_12260,0.0
+cat__MSA_12620,0.0
+cat__MSA_12700,0.0
+cat__MSA_44180,0.0
