@@ -1,6 +1,6 @@
 # Explainable Credit Risk Modeling with Machine Learning Method: A Temporal Validation Study of Fannie Mae Mortgage Delinquency
 
-This repository implements an end-to-end credit-risk workflow using public Fannie Mae Single-Family Loan Performance data. The README documents the execution logic. Detailed interpretation, formulas, results, and limitations are in [`docs/PROJECT_ANALYSIS.md`](docs/PROJECT_ANALYSIS.md).
+This repository implements an end-to-end credit-risk workflow using public Fannie Mae Single-Family Loan Performance data. The README documents the execution logic. Detailed interpretation, formulas, results, and limitations are in [`PROJECT_ANALYSIS.md`](PROJECT_ANALYSIS.md).
 
 This project develops an end-to-end, explainable credit-risk modeling workflow using Fannie Mae Single-Family Loan Performance data. It transforms quarterly disclosure files into a validated loan-level panel, constructs a forward three-month 30+ day delinquency target, and joins lagged macroeconomic indicators to preserve point-in-time feature availability. The modeling pipeline compares class-weighted logistic regression with a random forest using chronological train, calibration, and test periods. Platt scaling is applied to improve probability calibration, while evaluation covers discrimination, rare-event ranking, calibration, event capture, feature attribution, feature-block performance, population stability, and macroeconomic sensitivity.
 
