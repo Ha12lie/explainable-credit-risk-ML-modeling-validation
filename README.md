@@ -10,8 +10,10 @@ This project develops an end-to-end, explainable credit-risk modeling workflow u
 ### Step 1: Data Preparation
 
 **Source of raw data:** https://datadynamics.fanniemae.com/data-dynamics/#/reportMenu;category=HP
+
 **Raw data:** 
 2025Q1-2026Q1 Simple Family Loan Performance Data
+
 **Data Pre-processing:**
 Parses each 112-field record according to the documented disclosure layout, extracts key loan, borrower, seller, servicer, geographic, collateral, delinquency, modification, and zero-balance variables, validates field counts and duplicate loan-month keys, merges compatible prepared panels, and standardizes loan identifiers, reporting dates, and delinquency values. Invalid records are removed, observations are sorted by loan and month, and one validated record is retained for each loan-month for modeling.
 
@@ -81,6 +83,3 @@ This step compares feature distributions in the training and test populations. A
 ### Step 13: Macroeconomic Scenario Stress Testing
 
 The stress module applies explicit shocks to Treasury yield, VIX, and trailing SPY return and measures how portfolio-level predicted risk changes. It tests the model’s sensitivity to changes in interest rates, market volatility, and equity-market returns. These are hypothetical sensitivity scenarios, not forecasts or reconstructions of historical crises.
-```
-
-The detailed result interpretation is intentionally separated from this execution guide. Read [`docs/PROJECT_ANALYSIS.md`](docs/PROJECT_ANALYSIS.md) for the numerical findings, financial-risk interpretation, formulas, validation caveats, and recommended next steps.
