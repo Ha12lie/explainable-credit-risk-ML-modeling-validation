@@ -118,7 +118,7 @@ $$
 where $F_1$ and $F_0$ are the cumulative score distributions for events and non-events. For a review capacity $k$, top-k capture is
 
 $$
-\text{Capture}@k = \frac{\#\{\text{events in highest-scored } k\%\}}{\#\{\text{all events}\}}
+\text{TOP_K_Accuracy} = \frac{\#\{\text{events in highest-scored } k\%\}}{\#\{\text{all events}\}}
 $$
 
 Top-k capture is directly connected to a constrained operating process. Reviewing the highest-scored 10% captures about **2.8 times** the event share expected under random selection. This is a more credible use case than a fixed 0.5 classification threshold because a collections, underwriting, or monitoring team usually has a finite review capacity.
