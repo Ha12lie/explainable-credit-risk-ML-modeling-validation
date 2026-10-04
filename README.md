@@ -81,15 +81,6 @@ This step compares feature distributions in the training and test populations. A
 ### Step 13: Macroeconomic Scenario Stress Testing
 
 The stress module applies explicit shocks to Treasury yield, VIX, and trailing SPY return and measures how portfolio-level predicted risk changes. It tests the model’s sensitivity to changes in interest rates, market volatility, and equity-market returns. These are hypothetical sensitivity scenarios, not forecasts or reconstructions of historical crises.
-
-
-
-## Run the project
-
-```bash
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\\Scripts\\activate
-pip install -r requirements.txt
 pytest -q
 ```
 
