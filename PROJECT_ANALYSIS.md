@@ -65,9 +65,9 @@ When the fitted map is monotone, it changes the probability scale without changi
 | Calibrated Brier score | 0.01497 | Much closer to the event-rate scale and materially improved |
 | Maximum KS | 0.3074 | Meaningful separation between event and non-event score distributions |
 
-![ROC curve](../outputs/figures/roc.png)
+![ROC curve](./outputs/figures/roc.png)
 
-![Precision-recall curve](../outputs/figures/pr_curve.png)
+![Precision-recall curve](./outputs/figures/pr_curve.png)
 
 The key ranking quantities are defined as follows. With score threshold $c$, $TP(c)$, $FP(c)$, $TN(c)$, and $FN(c)$ denote the corresponding confusion-matrix counts:
 
@@ -107,7 +107,7 @@ The PR curve is more informative than ROC-AUC in this setting because delinquenc
 | Top 5% | 15.78% | 5.00% |
 | Top 10% | 28.04% | 10.00% |
 
-![KS curve](../outputs/figures/ks_curve.png)
+![KS curve](./outputs/figures/ks_curve.png)
 
 For a score threshold $c$, the Kolmogorov-Smirnov statistic is
 
@@ -127,7 +127,7 @@ The saved 0.5-threshold results should not be used as the main business conclusi
 
 ## 5. Probability Calibration
 
-![Calibration curve](../outputs/figures/calibration.png)
+![Calibration curve](./outputs/figures/calibration.png)
 
 The calibration result is the clearest evidence that ranking and probability estimation are separate problems. Platt scaling reduces the Brier score from **0.14550 to 0.01497** without changing ROC-AUC, KS, or top-k capture. This is consistent with a monotone probability remapping: the loans retain their ordering, while the predicted probabilities become closer to observed frequencies.
 
@@ -143,7 +143,7 @@ The improvement is substantial, but it should not be oversold. The calibration p
 
 ## 6. Model Explainability and Professional Insight
 
-![SHAP feature importance](../outputs/figures/shap.png)
+![SHAP feature importance](./outputs/figures/shap.png)
 
 The mean absolute SHAP ranking identifies the variables that move the forest prediction most strongly on the transformed model scale:
 
@@ -175,7 +175,7 @@ The SHAP calculation uses a random sample of 100 test observations. That is suit
 
 ## 7. Feature-Block Ablation
 
-![Feature-block ablation](../outputs/figures/ablation_chart.png)
+![Feature-block ablation](./outputs/figures/ablation_chart.png)
 
 | Feature block | ROC-AUC | Average precision | Raw Brier |
 |---|---:|---:|---:|
@@ -227,7 +227,7 @@ The current numeric PSI implementation also needs explicit missing, underflow, a
 
 ## 9. Macroeconomic Stress Interpretation
 
-![Stress test](../outputs/figures/stress_test_chart.png)
+![Stress test](./outputs/figures/stress_test_chart.png)
 
 | Scenario | Mean calibrated PD | Median calibrated PD |
 |---|---:|---:|
