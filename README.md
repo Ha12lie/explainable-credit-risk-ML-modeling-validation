@@ -37,7 +37,7 @@ Extract month-end `^TNX`, `^VIX`, and `SPY` prices using `yfinance`. It computes
 The model matrix contains four blocks:
 
 - **Bureau:** origination credit score, DTI, LTV, original UPB, and original interest rate.
-- **Dealer proxy:** seller name, servicer name, and origination channel.
+- **Participant:** seller name, servicer name, and origination channel.
 - **Alternative:** MSA, occupancy status, property type, and number of units.
 - **Macro:** lagged Treasury yield, VIX, and trailing 12-month SPY return.
 
@@ -49,7 +49,7 @@ Numeric variables use training-set median imputation and standardization. Catego
 
 ### Step 6: Data Split
 
-Unique months are ordered chronologically and split into approximately 60% training, 20% calibration/model selection, and 20% final test data. The future test window is never used to select the model or fit the calibration mapping.
+Unique months are ordered chronologically and split into approximately 60% training, 20% calibration, and 20% final test data. The future test window is never used to select the model or fit the calibration mapping.
 
 ### Step 7: Predictive Model Training
 
