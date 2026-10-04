@@ -36,11 +36,11 @@ The main test window contains **263,564 observations** from October to December 
 
 Platt scaling fits a one-variable logistic model to the base model's log-odds:
 
-\[
+$$
 s_i=\log\left(\frac{p_i}{1-p_i}\right),
 \qquad
 \hat p_i^{cal}=\sigma(a s_i+b).
-\]
+$$
 
 When the fitted map is monotone, it changes the probability scale without changing the ordering of loans. That distinction is central here:
 
