@@ -72,23 +72,23 @@ When the fitted map is monotone, it changes the probability scale without changi
 The key ranking quantities are defined as follows. With score threshold $c$, $TP(c)$, $FP(c)$, $TN(c)$, and $FN(c)$ denote the corresponding confusion-matrix counts:
 
 $$
-\operatorname{TPR}(c) = \frac{TP(c)}{TP(c) + FN(c)},
+\text{TPR}(c) = \frac{TP(c)}{TP(c) + FN(c)},
 \quad
-\operatorname{FPR}(c) = \frac{FP(c)}{FP(c) + TN(c)}
+\text{FPR}(c) = \frac{FP(c)}{FP(c) + TN(c)}
 $$
 
 ROC-AUC is the area under the ROC curve and can be interpreted as
 
 $$
-\operatorname{AUC} = P\left(s^+ > s^-\right)
+\text{AUC} = P\left(s^+ > s^-\right)
 $$
 
 the probability that a randomly selected event receives a higher score than a randomly selected non-event. Precision-recall analysis uses
 
 $$
-\operatorname{Precision}(c) = \frac{TP(c)}{TP(c) + FP(c)},
+\text{Precision}(c) = \frac{TP(c)}{TP(c) + FP(c)},
 \quad
-\operatorname{Recall}(c) = \operatorname{TPR}(c)
+\text{Recall}(c) = \text{TPR}(c)
 $$
 
 Average precision summarizes precision over the recall increments. For a rare event, its no-skill reference is the event prevalence, so it is more decision-relevant than ROC-AUC alone.
@@ -118,7 +118,7 @@ $$
 where $F_1$ and $F_0$ are the cumulative score distributions for events and non-events. For a review capacity $k$, top-k capture is
 
 $$
-\operatorname{Capture}@k = \frac{\#\{\text{events in highest-scored } k\%\}}{\#\{\text{all events}\}}
+\text{Capture}@k = \frac{\#\{\text{events in highest-scored } k\%\}}{\#\{\text{all events}\}}
 $$
 
 Top-k capture is directly connected to a constrained operating process. Reviewing the highest-scored 10% captures about **2.8 times** the event share expected under random selection. This is a more credible use case than a fixed 0.5 classification threshold because a collections, underwriting, or monitoring team usually has a finite review capacity.
@@ -134,7 +134,7 @@ The calibration result is the clearest evidence that ranking and probability est
 For observations $(y_i, p_i)$, where $y_i \in \{0, 1\}$ and $p_i$ is the predicted event probability, the Brier score is
 
 $$
-\operatorname{Brier} = \frac{1}{n} \sum_{i=1}^{n} (p_i - y_i)^2
+\text{Brier} = \frac{1}{n} \sum_{i=1}^{n} (p_i - y_i)^2
 $$
 
 Lower values are better, but Brier score combines calibration and refinement. A calibration curve groups predictions into probability bins and compares the mean predicted probability with the observed event frequency in each bin.
@@ -190,7 +190,7 @@ The full feature set performs best, which supports the value of combining hetero
 For feature block $g$, the ablation effect can be summarized as
 
 $$
-\Delta_g = \operatorname{Metric}(X_{\text{all}}) - \operatorname{Metric}(X_g)
+\Delta_g = \text{Metric}(X_{\text{all}}) - \text{Metric}(X_g)
 $$
 
 where $X_g$ contains only the variables in block $g$. This is a standalone block comparison, not a conditional contribution after controlling for every other block.
